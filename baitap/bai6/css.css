@@ -1,0 +1,28 @@
+#tieude{
+    text-align: center;
+    color: rgb(230, 164, 23);
+    border: 2px solid rgb(255, 145, 0);
+    
+}
+span{
+    color: red;
+}
+.FirstWord{
+    font-size: 50px;
+}
+p{
+    text-align: right;
+}
+#letrai{
+    text-align: left;
+}
+#set{ /*điều chỉnh cho dòng bến thượng hải*/
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: orangered;
+}
+mark{
+    background-color: yellow;
+    color: black;
+}

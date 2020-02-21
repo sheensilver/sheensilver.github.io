@@ -1,0 +1,17 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: #008888;
+    background-image: url(#) ;
+    background-repeat: repeat;
+    background-attachment:fixed ;
+}
+h2{
+    text-align: center;
+}
+#FirstP{
+    background-color: #339999;
+    color: white;
+    font-weight: bold;
+
+}
