@@ -1,0 +1,58 @@
+
+body{
+    font-family: segoe UI;
+    font-size: 18px;
+    color: gray;  
+}
+.section{
+    width: 1140px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+.section img{
+    width: 520px;
+    height: 380px;
+    display: block;
+    
+}
+.section h2{
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 2px solid blue;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    color: black;
+    text-transform: uppercase;
+}
+.section .container .item2 h3{
+    color: black;
+}
+.section .container{
+    width: 560px;
+}
+.section .container .item1{
+    width:100% ;
+}
+.section .container .item2{
+    width: 100%;
+}
+.section .container .item2 ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.section .container .item2 ul li{
+    text-decoration: none;
+    display: block;
+    width:50%;
+}
+.fa,.fa-check{
+    color: skyblue;
+    transform:scale(0.7) ;
+    margin-right: 5px;
+}

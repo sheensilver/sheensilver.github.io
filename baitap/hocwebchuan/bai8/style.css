@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+color: grey;
+font-family: 'Segoe UI';
+font-size: 16px;
+
+}
+ul{
+width: 700px;
+background-color: rgb(238, 232, 232);
+position: relative;
+top:50%;
+left:50%;
+transform: translate(-50%);
+margin-top:25px;
+
+}
+ul li{
+border-bottom: 1px dashed red;
+display:flex ;
+padding: 25px 0px;
+margin: 0px 25px ;
+width: 650px;
+
+}
+ul li img{
+  border-radius: 5px;
+  display: block;
+}
+ul li .section{
+     margin: 0px 25px;
+}
+h2{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: black;
+}
