@@ -20,7 +20,7 @@ body{
 .layout h2{
    
     font-size: 18px;
-    font-weight: 530;
+    font-weight: 540;
     border-bottom: 1px solid  ;
     margin-bottom: 12px;
 
@@ -169,6 +169,7 @@ footer{
 }
 .footer-link-box-item{
     border-right: 1px solid #000 ;
+    
 }
 .footer-link-box-item a{
     padding: 15px;
