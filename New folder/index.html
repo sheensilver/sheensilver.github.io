@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body{
+            margin:0px;
+            padding: 0px;
+        }
+       .gr{
+           width: 100%;
+           height: auto;
+           background-color: gray;
+       }
+       .gr>header{
+           background-color: green;
+           margin-bottom: 0px;
+       }
+       .gr>nav{
+           background-color: hotpink;
+           margin-top: 0px;
+       }
+       a{ text-decoration: none;}
+       li{
+           list-style-type: none;
+           margin-left: 20px;
+       }
+    </style>
+</head>
+<body>
+    <table class="table1">
+        <tr>
+            <td>id</td>
+            <td colspan="2">name</td>
+            <td>class</td>
+        </tr>
+        <tr>
+           <td>1</td>
+           <td>2</td>
+           <td rowspan="3">3</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+    </table>
+    <br>
+    <form action="">
+        <label for="1" >ble</label>
+        <input type="number" name="hight" min="1" max="10">
+        <br><br>
+        <input type="submit" value="submit" id="submit" onclick="onSubmit()">
+        <p id="pp" style="color: blue; background-color: chocolate; display: none;">clame </p>
+    </form>
+    <script>
+        function onSubmit(){
+            event.preventDefault();
+            alert("hi")
+            var pSuccess = document.getElementById("pp")
+            pSuccess.style.display="block"
+            pSuccess.style.color="blue"
+        }
+    </script>
+    <!-- html layout -->
+    <div class="gr">
+        <header>
+            <h2>header</h2>
+        </header>
+        <nav >
+            <ul style="display: flex;">
+                <li><a href="#">clame</a></li>
+                <li><a href="#">bleme</a></li>
+                <li><a href="#">brome</a></li>
+                <li><a href="#">breme</a></li>
+            </ul>
+        </nav>
+        <article>
+            <aside>
+            aside
+            </aside>
+            <section>
+                <h1>ha</h1>
+                <p>para</p>
+            </section>
+        </article>
+        <footer>
+            blabla
+        </footer>
+    </div>
+</body>
+</html>

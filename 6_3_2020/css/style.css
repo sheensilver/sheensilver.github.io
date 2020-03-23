@@ -1,0 +1,90 @@
+p{
+    font-style: italic;
+    font-weight: bold;
+}
+#space{
+    height:400px;
+}
+.boder{
+    border:2px solid blue;
+}
+p[id]{
+    background-color: red;
+}
+p[class^="big-size"]{
+    font-size: 40px;
+}
+p[class*="big-size"]{
+    border: 4px solid lightskyblue;
+}
+/* selector phân cấp */
+.big-block{
+    width: 300px;
+    height: 300px;
+}
+.bg-red{
+    background-color: red;
+}
+.sm-block{
+    width:100px;
+    height: 100px;
+}
+.bg-blue{
+    background-color: blue;
+}
+.big-block p{
+    color: white;
+}
+.big-block > p{
+    color: yellow;
+}
+/*pesuedo-element*/
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+table,td,tr{
+    border: 1px solid black;
+}
+.my-ip:focus{
+    width: 500px;
+}
+p.first-letter::first-letter{
+    color: Blue;
+    font-size: 40px;
+}
+p.first-letter::first-line{
+    color:aqua
+}
+.boder-1{
+    border: 1px solid black;
+}
+.position{
+    position: relative;
+}
+.tst-box{
+    position: relative;
+    transition: width 2s;
+}
+.tst-box,.big-block:hover{
+    width: 700px;
+    
+}
+input{
+    width: 50px;
+    transition: width 2s;
+    color: black;
+}
+input:hover{
+    width:100px;
+    transition: width 2s;
+}
+.my-animation{
+    animation: slide 5s ease 1s  infinite forwards;
+    position: relative;
+}
+@keyframes slide{
+    0% {left:0px;}
+    50% {left: 300px;}
+    100% {left:0px;}
+}
