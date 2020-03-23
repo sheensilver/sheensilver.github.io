@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+}
+section{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% auto auto auto 20%;
+    justify-content: space-between;
+}
+h2{
+    font-size: 60px;
+}
+/* set header */
+.header{
+    background-color: rgb(26, 199, 26);
+    color: #fff;
+    grid-column: 1 / 6;
+    padding: 30px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.header h1{
+    line-height: 0.8;
+    font-size: 60px;
+    padding: 0;
+}
+.header p{
+    font-weight: bold;
+    font-size: 30px;
+}
+/* set main-menu  */
+.main-menu{}
+.main-menu-box{
+    padding-right:20px ;
+    width: 100%;
+    list-style-type: none;
+}
+.main-menu-box-item{
+    margin: 20px 0px;
+}
+.main-menu-box-item a{
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 270px 10px 10px;
+    border-radius: 5px;
+    background-color: #a6a6a6;
+    transition: background-color,color .04s ease;
+}
+.main-menu-box-item a:hover{
+    color: #fff;
+    background-color: rgb(26, 199, 26);
+}
+/* set content-box */
+.content{
+    grid-column:  2 / 5;
+}
+.content-item-box{
+    display: flex   ;
+}
+.list-stylesheets{
+    display: flex;
+    list-style-type: none;
+}
+.list-stylesheets li{ 
+    padding:15px
+}
+/* set side-bar */
+.sidebar{
+    height: 65vh;
+    border-radius: 10px;
+    background-color: rgb(42, 74, 212);
+    color: white;
+    padding: 30px;
+}
+/* set footer */
+.footer{
+    grid-column: 1/6;
+    background-color: #a6a6a6;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
