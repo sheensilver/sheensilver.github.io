@@ -23,6 +23,9 @@ img{
 .content{
     width: 720px;
 }
+.content .h1tt{
+    width: 580px;
+}
 .content h1{
     font-size: 27px;
 }
