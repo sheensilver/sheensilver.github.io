@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-size: 15px;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #f0f2f5;
+  }
+  .header {
+    background-color: #fff;
+  }
+  .wrap--container {
+    width: 100%;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .container-left {
+    width: 300px;
+    padding-right: 10px;
+    position: relative;
+  }
+  .header__logo-search {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+  .header--logo {
+  }
+  .header--logo > svg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: blue;
+    position: relative;
+    opacity: 0.9;
+  }
+  .f {
+    fill: #fff;
+    transform: translate(0, 2px) scale(1.1);
+  }
+  .header__search {
+    position: relative;
+  }
+  
+  .header__search > img {
+    dispaly: block;
+    position: absolute;
+    margin-left: 15px;
+    top: 12px;
+    opacity: 0.5;
+    transition: 0.5s;
+  }
+  .header__search input[type="text"] {
+    background-color: #f0f2f5;
+    width: 250px;
+    padding: 12px 40px 12px 40px;
+    border-radius: 20px;
+    border-style: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  .header__search:hover > img {
+    display: none;
+  }
+  .header__search > input[type="text"]:hover {
+    padding-left: 15px;
+  }
+  
+  .container--center {
+    width: 585px;
+  }
+  .header__menu-box {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+  .header__menu-box > li:first-child {
+    border-bottom: 3px solid blue;
+    opacity: 0.9;
+  }
+  
+  .menu-item--btn {
+    display: block;
+    padding: 15px 39px;
+  }
+  
+  .menu-item--btn:hover {
+    border-radius: 5px;
+    background-color: #f0f2f5;
+  }
+  .header__menu-box > li:nth-child(1) > .menu-item--btn:hover {
+    background-color: #fff;
+  }
+  .header__menu-box li {
+    opacity: 0.5;
+  }
+  .header__menu-box li:first-child > .menu-item--btn > svg > path {
+    fill: blue;
+  }
+  
+  .container--right {
+    width: 300px;
+    padding-right: 10px;
+  }
+  
