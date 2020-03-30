@@ -20,15 +20,15 @@ textarea{
     height: 40px;
     border: 1px solid rgb(27, 26, 26);
     border-radius: 3px;
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
  .section>form>p>input[type="email"]{
      margin-left:26px;
  }
 textarea{
-    
-    height: 255px;
+    padding: 15px;
+    height:224px;
 }
 
 input[type="submit"]{
