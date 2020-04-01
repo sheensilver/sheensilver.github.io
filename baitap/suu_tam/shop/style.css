@@ -82,7 +82,7 @@ nav{
 }
 .menu-lv2 li a:hover{
     background-color: orange;
-    color: #fff;
+    color: #ffffff;
 }
 .menu-list > li:hover .menu-lv2{
     visibility: visible;
