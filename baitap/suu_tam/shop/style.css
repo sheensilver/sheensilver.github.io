@@ -17,7 +17,7 @@ nav{
     background-color: #fff;
     display: flex;
     align-items: center;
-    opacity: 1;
+    opacity: 0.95;
     z-index: 1;
 }
 .container{
@@ -60,14 +60,13 @@ nav{
 }
 .menu-lv2{
     opacity: 0;
-    visibility:hidden;
+    visibility: hidden;
     width: 200px;
     position: absolute;
     list-style-type: none;
-    transition: 0.6s 0.1s;
     border-radius: 7px;
-    overflow: hidden;
-    
+    overflow: hidden; 
+    transition: visibility,opacity 0.5s;
 }
 .menu-lv2 li a{ 
     border-bottom: 1px solid #f2f3f5 ;
@@ -77,7 +76,6 @@ nav{
     height: 100%;
     color: orange;
     background-color: #fff;
-    transition: 0.5s;
 }
 .menu-lv2 li a:last-child{
     border-bottom: none;
@@ -87,8 +85,8 @@ nav{
     color: #fff;
 }
 .menu-list > li:hover .menu-lv2{
-    opacity: 1;
     visibility: visible;
+   opacity: 0.9;
 }
 
 /*  */
@@ -98,7 +96,7 @@ nav{
 .search-box{
     max-width: 0;
     border: none;
-    transition: all 2s ;
+    transition: all 1.2s ;
     margin: 8px;
 }
 .search-icon i{
