@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.7rem;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+}
+.form{
+    margin: 0 auto;
+    transform: translateY(50%);
+    padding: 1.5rem;
+    width: 480px;
+    background-color: #f2f3f5;
+}
+.form-control{
+    position: relative;
+}
+.form-control label{
+    display: inline-block;
+    width: 40%;
+    margin-bottom: 1.5rem ;
+    font-weight: bold;
+}
+.form-control input{
+    padding: 0 10px;
+}
+.form-control small{
+    display: block;
+    position: absolute;
+    top: 1.7rem;
+    margin-left: 41%;
+    color: red;
+}
+.form-control.success input{
+    outline: none;
+    border-color: lightblue ;
+}
+.form-control.success i.fa-check{
+    visibility: visible;
+}
+.form-control.error input{
+    outline: firebrick;
+}
+.form-control.error i.fa-exclamation{
+    outline: none;
+    visibility: visible;
+}
+.form-control i{
+    visibility: hidden;
+    position: absolute;
+    top: 0.4rem;
+    transform: translateX(1rem);
+}
+.form-control i.fa-check{
+    color: green;
+}
+.form-control i.fa-exclamation{
+    color: red;
+}
+
+
+.form button{
+    display: inline-block;
+    padding:  0 15px;
+    margin-left: 41%;
+    font-weight: bold;
+    cursor: pointer;
+}
