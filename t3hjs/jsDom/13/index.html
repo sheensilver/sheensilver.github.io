@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="btn">
+          <button id='start' onclick='start()'>Bắt đầu</button>
+          <button id='pause' onclick='pause()' style=' display: none'>Dừng</button>
+          <button id='reset' onclick='reset()'>Tạo mới</button>
+        </div>
+        <div class="display">
+          <div class="time-box">
+            <div class='time-name' id='days'>0</div>
+            Ngày
+          </div>
+          <div class="time-box">
+            <div class='time-name' id='hours'>0</div>
+            Giờ
+          </div>
+          <div class="time-box">
+            <div class='time-name' id='minutes'>0</div>
+            Phút
+          </div>
+          <div class="time-box">
+            <div class='time-name' id='seconds'>0</div>
+            Giây
+          </div>
+        </div>
+      </div>
+      <script src="js/index.js"></script>
+</body>
+</html>
